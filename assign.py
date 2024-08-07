@@ -13,7 +13,7 @@ class Catholic:
         print(f"{self.name} is not a member of {self.church} Catholic church.")
 
 # Sample usage
-john = Catholic("John Doe", "1990-05-15", "St. Paul's", "2022-07-14", "Baptism")
+david = Catholic("david", "1990-05-15", "St. Paul's", "2022-07-14", "Baptism")
 
-john.check_mass_attendance()
-john.is_member()
+david.check_mass_attendance()
+david.is_member()
